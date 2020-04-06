@@ -7,5 +7,49 @@ Ya está actualizado.
 root@zeroSun:/var/www/html/myCI4template# 
 
 
+root@zeroSun:/var/www/html/myCI4template# git add .
+root@zeroSun:/var/www/html/myCI4template# git commit -m "instalación framework"
+[master bdfc450] instalación framework
+ Committer: root <root@localhost.localdomain>
+Tu nombre y correo fueron configurados automáticamente basados
+en tu usuario y nombre de host. Por favor verifica que son correctos.
+Tu puedes suprimir este mensaje configurándolos de forma explicita. Ejecuta el 
+siguiente comando y sigue las instrucciones de tu editor
+ para modificar tu archivo de configuración:
+
+    git config --global --edit
+
+Tras hacer esto, puedes arreglar la identidad usada para este commit con:
+
+    git commit --amend --reset-author
+
+ 564 files changed, 98307 insertions(+)
+ create mode 100644 app/.htaccess
+ create mode 100644 app/Common.php
+ create mode 100644 app/Config/App.php
+ create mode 100644 app/Config/Autoload.php
+ create mode 100644 app/Config/Boot/development.php
+ create mode 100644 app/Config/Boot/production.php
+ create mode 100644 app/Config/Boot/testing.php
+ create mode 100644 app/Config/Cache.php
+ create mode 100644 app/Config/Constants.php
+....
+....
+....
+
+root@zeroSun:/var/www/html/myCI4template# git push https://github.com/lnavarroa/myCI4template master
+Username for 'https://github.com': lnavarroa
+Password for 'https://lnavarroa@github.com': 
+Enumerando objetos: 692, listo.
+Contando objetos: 100% (692/692), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (646/646), listo.
+Escribiendo objetos: 100% (691/691), 855.90 KiB | 6.25 MiB/s, listo.
+Total 691 (delta 186), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (186/186), done.
+To https://github.com/lnavarroa/myCI4template
+   a0b9e4e..bdfc450  master -> master
+root@zeroSun:/var/www/html/myCI4template# git add .env
+root@zeroSun:/var/www/html/myCI4template# git commit -m "configuración .env"
 
 
