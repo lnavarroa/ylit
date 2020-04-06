@@ -1,0 +1,11 @@
+root@zeroSun:/var/www/html/myCI4template# git init
+Reinicializado el repositorio Git existente en /var/www/html/myCI4template/.git/
+root@zeroSun:/var/www/html/myCI4template# git pull https://github.com/lnavarroa/myCI4template master
+Desde https://github.com/lnavarroa/myCI4template
+ * branch            master     -> FETCH_HEAD
+Ya está actualizado.
+root@zeroSun:/var/www/html/myCI4template# 
+
+
+
+
