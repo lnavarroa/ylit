@@ -24,3 +24,47 @@ CRITICAL - 2020-04-06 13:40:59 --> Invalid file: {0}
 #6 /var/www/html/myCI4template/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #7 /var/www/html/myCI4template/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
 #8 {main}
+CRITICAL - 2020-04-06 16:36:02 --> syntax error, unexpected ''brand'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/m...')
+#1 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/myCI4template/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/myCI4template/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/myCI4template/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/myCI4template/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/myCI4template/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#9 {main}
+CRITICAL - 2020-04-06 16:37:21 --> syntax error, unexpected ''brand'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/m...')
+#1 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/myCI4template/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/myCI4template/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/myCI4template/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/myCI4template/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/myCI4template/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#9 {main}
+CRITICAL - 2020-04-06 16:37:23 --> syntax error, unexpected ''brand'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/m...')
+#1 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/myCI4template/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/myCI4template/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/myCI4template/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/myCI4template/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/myCI4template/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#9 {main}
+CRITICAL - 2020-04-06 16:38:21 --> syntax error, unexpected ''brand'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/m...')
+#1 /var/www/html/myCI4template/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/myCI4template/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/myCI4template/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/myCI4template/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/myCI4template/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/myCI4template/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#9 {main}
