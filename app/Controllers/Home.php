@@ -4,13 +4,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-<<<<<<< HEAD
-		return view('welcome_message');
-=======
 		$data = [
-                'title' => 'Template',
-                'welcome' => 'Bienvenido',
-                'navbrand' => 'Template'
+                'title' => 'YLIT Ltda',
+                'welcome' => 'Bienvenido a YLIT Ltda.',
+                'navbrand' => 'YLIT'
         ];
 		echo view('templates/head',$data);
 		echo view('templates/header',$data);
@@ -19,9 +16,9 @@ class Home extends BaseController
 		echo view('templates/cards');
 		echo view('templates/content');
 		echo view('templates/footer');
->>>>>>> e1c3fd69c32bd7138ced556d012be91a6049db23
+
 	}
 
-	//--------------------------------------------------------------------
+	
 
 }

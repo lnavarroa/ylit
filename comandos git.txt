@@ -1,0 +1,89 @@
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs (master)
+$ git clone https://github.com/lnavarroa/ylit.git
+Cloning into 'ylit'...
+remote: Enumerating objects: 694, done.
+remote: Counting objects: 100% (694/694), done.
+remote: Compressing objects: 100% (460/460), done.
+remote: Total 694 (delta 184), reused 688 (delta 184), pack-reused 0
+Receiving objects: 100% (694/694), 854.48 KiB | 1.56 MiB/s, done.
+Resolving deltas: 100% (184/184), done.
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs (master)
+$ cd ylit
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git remote add template https://github.com/lnavarroa/myCI4template
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git remote -v
+origin  https://github.com/lnavarroa/ylit.git (fetch)
+origin  https://github.com/lnavarroa/ylit.git (push)
+template        https://github.com/lnavarroa/myCI4template (fetch)
+template        https://github.com/lnavarroa/myCI4template (push)
+
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git fetch template
+warning: no common commits
+remote: Enumerating objects: 736, done.
+remote: Counting objects: 100% (736/736), done.
+remote: Compressing objects: 100% (496/496), done.
+remote: Total 736 (delta 207), reused 721 (delta 195), pack-reused 0
+Receiving objects: 100% (736/736), 1.13 MiB | 1.94 MiB/s, done.
+Resolving deltas: 100% (207/207), done.
+From https://github.com/lnavarroa/myCI4template
+ * [new branch]      master     -> template/master
+
+
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git pull template master --allow-unrelated-histories
+From https://github.com/lnavarroa/myCI4template
+ * branch            master     -> FETCH_HEAD
+CONFLICT (add/add): Merge conflict in app/Controllers/Home.php
+Auto-merging app/Controllers/Home.php
+CONFLICT (add/add): Merge conflict in README.md
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in LICENSE
+Auto-merging LICENSE
+Automatic merge failed; fix conflicts and then commit the result.
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git fetch --all
+Fetching origin
+Fetching template
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git add README.md
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git add LICENSE
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git commit -m "added"
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       app/Controllers/Home.php
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git add app/Controllers/Home.php
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master|MERGING)
+$ git commit -m "added"
+[master 3264346] added
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git fetch --all
+Fetching origin
+Fetching template
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git pull template master --allow-unrelated-histories
+From https://github.com/lnavarroa/myCI4template
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
