@@ -7,7 +7,26 @@
 
 	
 
-	<pre><code> <input type="file" name="userfile" /> </code></pre>
+	<pre><code> 
+		<input type="file" name="gfile">
+
+ 		<input type="button" class="button" name="gfile" value="Upload" id="userfile">
+
+
+  		
+ 	</code></pre>
+
+ 	<form method="post" accept-charset="utf-8" action="http://localhost:8080/UploadFiles/uploads">
+    <div class="col-10">
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="archiveFile" name="gfile">
+            <label class="custom-file-label" for="customFile">Upload a image</label>
+        </div>
+    </div>
+    <div class="col-2">
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </div>
+<?= form_close(); ?>
 
 </section>
 
