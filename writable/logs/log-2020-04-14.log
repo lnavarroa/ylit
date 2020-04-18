@@ -195,3 +195,99 @@ CRITICAL - 2020-04-14 18:47:07 --> Too few arguments to function App\Controllers
 #3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2020-04-14 20:20:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/uploa...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UploadFiles.php(15): view('templates/uploa...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->index()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-14 20:21:17 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/uploa...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UploadFiles.php(15): view('templates/uploa...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->index()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-14 20:23:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/uploa...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UploadFiles.php(15): view('templates/uploa...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->index()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-14 20:25:51 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/uploa...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UploadFiles.php(15): view('templates/uploa...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->index()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-14 20:26:11 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/uploa...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UploadFiles.php(15): view('templates/uploa...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->index()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-14 20:47:31 --> Undefined variable: path
+#0 C:\xampp\htdocs\myCI4template\app\Controllers\BaseController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(883): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-14 21:11:56 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->uploads()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-14 21:34:44 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->uploads()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-14 21:36:05 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->uploads()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-14 21:36:53 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\myCI4template\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('UploadFiles')
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('UploadFiles')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-14 21:37:27 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->uploads()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-14 21:39:37 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UploadFiles->uploads()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFiles))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -11,31 +11,29 @@ class UploadFiles extends BaseController
 
 		echo view('templates/head',$data);
 		echo view('templates/header',$data);
-		
 		echo view('templates/uploadfiles');
-		
-		
-		
-
 		echo view('templates/footer');
 		//$path = $this->request->getFile('userfile')->store();
 	}
 
+
 	public function uploads()
 	{
-		echo "upload";
+		//$files = $this->request->getFiles('uploadf');
+		$file = $this->request->getFile('userfile');
+		
 		if($imagefile = $this->request->getFiles())
-		{echo "upload";
-    		if($img = $imagefile['gfile'])
-    		{echo "upload";
-        		if ($img->isValid() && ! $img->hasMoved())
-        		{
-            		$newName = $img->getRandomName(); //This is if you want to change the file name to encrypted name
-            		$img->move(WRITEPATH.'uploads', $newName);
-            		echo view('templates/uploadfiles');
-        		}
-    		}
+		{
+   			foreach($imagefile['images'] as $img)
+   			{
+      			if ($img->isValid() && ! $img->hasMoved())
+      			{
+           			$newName = $img->getRandomName();
+           			$img->move(WRITEPATH.'uploads', $newName);
+      			}
+   			}
 		}
+		echo "upload";
 	}
 
 	//--------------------------------------------------------------------

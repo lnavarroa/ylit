@@ -3,30 +3,19 @@
 
 <section>
 
-	<h1>About this page</h1>
-
-	
+	<h1>Upload</h1>
 
 	<pre><code> 
-		<input type="file" name="gfile">
 
- 		<input type="button" class="button" name="gfile" value="Upload" id="userfile">
-
-
-  		
  	</code></pre>
 
- 	<form method="post" accept-charset="utf-8" action="http://localhost:8080/UploadFiles/uploads">
-    <div class="col-10">
-        <div class="custom-file">
-            <input type="file" class="custom-file-input" id="archiveFile" name="gfile">
-            <label class="custom-file-label" for="customFile">Upload a image</label>
-        </div>
-    </div>
-    <div class="col-2">
-        <button type="submit" class="btn btn-primary">Upload</button>
-    </div>
-<?= form_close(); ?>
+	<?= form_open('UploadFiles/uploads','class="email" id="uploadf"');?>
+		<?= form_upload('userfile', 'usuario'); ?>
+		<?= form_submit('uploadf', 'Submit');
+// Would produce:  <input type="submit" name="uploadf" value="Submit Post!" /> ?>
+		<input type="file" name="userfile" />
+		<input type="file" name="images[]" multiple />
+	<?= form_close(); ?>
 
 </section>
 
@@ -37,8 +26,7 @@
 		<h1>Go further</h1>
 
 		<h2>
-			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect x='32' y='96' width='64' height='368' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='224' x2='240' y2='224' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='400' x2='240' y2='400' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect x='112' y='160' width='128' height='304' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><rect x='256' y='48' width='96' height='416' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><path d='M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/></svg>
-			Learn
+			
 		</h2>
 
 	
