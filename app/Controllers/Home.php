@@ -6,17 +6,19 @@ class Home extends BaseController
 	{
 		$data = [
                 'title' => 'YLIT Ltda',
-                'welcome' => 'Bienvenido a YLIT Ltda.',
-                'navbrand' => 'YLIT'
+                'welcome' => 'YLIT'
         ];
 		echo view('templates/head',$data);
-		echo view('templates/header',$data);
 		echo view('templates/navbar',$data);
-		echo view('templates/carousel');
-		echo view('templates/cards');
-		echo view('templates/content');
+		echo view('separador');
+		echo view('ylit');
+		echo view('separador');
+		echo view('cards');
+		echo view('separador');
+		echo view('contacto');
+		echo view('separador');
 		echo view('templates/footer');
-
+		//echo view('welcome_message');
 	}
 
 	

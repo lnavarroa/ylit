@@ -1,0 +1,10 @@
+CRITICAL - 2020-05-14 12:35:03 --> Invalid file: {0}
+#0 C:\xampp\htdocs\ylit\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/ylit....')
+#1 C:\xampp\htdocs\ylit\system\Common.php(1071): CodeIgniter\View\View->render('templates/ylit', Array, true)
+#2 C:\xampp\htdocs\ylit\app\Controllers\Home.php(14): view('templates/ylit')
+#3 C:\xampp\htdocs\ylit\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ylit\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ylit\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ylit\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ylit\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
