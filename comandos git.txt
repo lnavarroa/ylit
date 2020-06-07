@@ -87,3 +87,28 @@ From https://github.com/lnavarroa/myCI4template
 Already up to date.
 
 lucho@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git add .
+warning: LF will be replaced by CRLF in writable/logs/log-2020-05-14.log.
+The file will have its original line endings in your working directory
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git commit -m "Sitio implantado, formulario de contacto funcionando ok"
+
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git push origin master
+Enumerating objects: 80, done.
+Counting objects: 100% (80/80), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (63/63), done.
+Writing objects: 100% (63/63), 5.90 MiB | 494.00 KiB/s, done.
+Total 63 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), completed with 11 local objects.
+To https://github.com/lnavarroa/ylit.git
+   00f8b31..6cede5c  master -> master
+
+luch0@luch0-PC MINGW64 /c/xampp/htdocs/ylit (master)
+$ git fetch origin master
+From https://github.com/lnavarroa/ylit
+ * branch            master     -> FETCH_HEAD
+

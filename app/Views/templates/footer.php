@@ -7,7 +7,7 @@
 <div class="container">
 	<div class="copyrights">
 
-		<p>&copy; <?= date('Y') ?> Sitio web desarrollado por <a href="https://ylit.cl">YLIT</a>.</p>
+		<p>&copy; 2017 - <?= date('Y') ?> Sitio web desarrollado por <a href="https://ylit.cl">YLIT</a>.</p>
 
 	</div>
 </div>

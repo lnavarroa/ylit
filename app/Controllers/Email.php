@@ -58,11 +58,6 @@ class Email extends BaseController
 		$recipient = "lnav@tutanota.com";
 		$mailheader = "From: $email \r\n";
 		mail($recipient, $subject, $content, $mailheader) or die("Error!");
-		echo "Email enviado con exito, muchas gracias por contactarnos.";
-
-		
+		echo "Email enviado con exito, muchas gracias por contactarnos.";	
 	}
-
-	
-
 }

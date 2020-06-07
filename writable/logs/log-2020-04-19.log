@@ -1,0 +1,60 @@
+CRITICAL - 2020-04-19 19:53:15 --> Invalid file: {0}
+#0 C:\xampp\htdocs\myCI4template\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/login...')
+#1 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/login...', Array, true)
+#2 C:\xampp\htdocs\myCI4template\app\Controllers\UserCrud.php(33): view('templates/login...')
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UserCrud->createUser()
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-19 19:54:33 --> Invalid file: {0}
+#0 C:\xampp\htdocs\myCI4template\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/login...')
+#1 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/login...', Array, true)
+#2 C:\xampp\htdocs\myCI4template\app\Controllers\UserCrud.php(34): view('templates/login...')
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UserCrud->createUser()
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-19 20:20:09 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\myCI4template\system\Common.php(1071): CodeIgniter\View\View->render('templates/login...', Array, true)
+#1 C:\xampp\htdocs\myCI4template\app\Controllers\UserCrud.php(34): view('templates/login...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UserCrud->createUser()
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#4 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-04-19 20:23:12 --> Call to undefined function App\Controllers\echoform_input()
+#0 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UserCrud->createUser()
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-19 20:26:11 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\xampp\htdocs\myCI4template\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('UserCrud/create...')
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('UserCrud/create...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-19 20:39:11 --> Argument 3 passed to form_open() must be of the type array, string given, called in C:\xampp\htdocs\myCI4template\app\Controllers\UserCrud.php on line 36
+#0 C:\xampp\htdocs\myCI4template\app\Controllers\UserCrud.php(36): form_open('UserCrud/create...', '', '')
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(910): App\Controllers\UserCrud->createUser()
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-19 20:54:52 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 C:\xampp\htdocs\myCI4template\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('UserCrud/create...')
+#1 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('UserCrud/create...')
+#2 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\myCI4template\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myCI4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myCI4template\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
